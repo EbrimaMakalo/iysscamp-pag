@@ -1,0 +1,65 @@
+html{
+    position: relative;
+    min-height: 100%;
+    font-family: Arvo, serif;
+}
+
+
+
+
+
+
+
+
+
+/*Or use this*/
+/*Background Image*/
+img{
+    width: 100%;
+}
+@media (min-width: 992px){
+    img{
+        width: 100%;
+        height: 550px;
+    }
+}
+#myContainer{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Background Image*/
+/* body{
+    background: url("PeaceA2.jpg") no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+#myContainer{
+    text-align: center;
+} */
+
+/*Style the footer*/
+.footer{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+}

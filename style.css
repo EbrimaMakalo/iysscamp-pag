@@ -1,0 +1,56 @@
+
+html{
+    position: relative;
+    min-height: 100%;
+}
+body{
+    font-family: Arvo, serif;
+}
+
+.jumbotron{
+    background: none;
+}
+
+/*   
+@media (min-width: 576px){
+    .jumbotron{
+        background: url("login1.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;      
+    }
+}  */
+
+#loginform{
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 576px){
+    #loginform{
+        height: 100%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
+
+@media (min-width: 768px){
+    #loginform{
+        padding-right: 15%;
+        padding-left: 15%;
+        height: 100%;
+        background-color: lightgray;
+        background-clip: content-box;
+    }
+}
+
+@media (min-width: 992px){
+    #loginform{
+        padding-right: 20%;
+        padding-left: 20%;
+        height: 100%;
+        background-color: lightgray;
+        background-clip: content-box;
+    }
+}
+
